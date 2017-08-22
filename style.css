@@ -1,0 +1,106 @@
+
+@font-face {
+    font-family: '04b03regular';
+    src: url('04b03-webfont.woff2') format('woff2'),
+         url('04b03-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'jackeyfontregular';
+  src: url('jackeyfont.ttf');
+}
+
+
+* {
+  font-family: '04b03regular';
+}
+
+html, body {
+  /*background: #cab7d9;*/
+  background: #88A8DB;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'jackeyfontregular';
+  color: #591177;
+}
+
+p {
+  font-family: 'jackeyfontregular';
+  color: #962594;
+}
+
+a {
+  color: #b22caa;
+  text-decoration: none;
+}
+
+#topimg {
+  position: relative;
+  height: auto;
+  max-height: 50%;
+  width: 100%;
+  max-width: 30em;
+}
+
+h3#clock {
+  font-family: '04b03regular';
+  font-size: 2em;
+  color: #591177;
+}
+
+
+#mainbox {
+  margin: 1em;
+  outline-width: thick;
+  outline-color: #591177;
+  outline-style: dashed;
+  max-width: 30em;
+}
+
+#box-contents {
+  padding: 1em;
+  display: table-cell;
+  left: 0;
+  margin: auto;
+  text-align: left;
+}
+
+form {
+  font-family: 'jackeyfontregular';
+  font-size: 3em;
+  /*margin-top: 2em;*/
+  color: #CCCCCC;
+  margin-bottom: 1em;
+}
+
+input {
+  max-width: 30em;
+  height: 3em;
+}
+
+button {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #b22caa;
+  font-size: 1em;
+  background: #fff;
+  padding: 0px 5px 0px 5px;
+  border: solid #591177 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #cab7d9;
+  text-decoration: none;
+}
